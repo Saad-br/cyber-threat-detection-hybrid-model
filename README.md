@@ -12,6 +12,18 @@ This project implements an AI-powered Network Intrusion Detection System (NIDS) 
 1. Clone the repository: `git clone <your-url>`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the dashboard: `streamlit run app.py`
+4. pip install numpy
+5.pip install pandas
+6.pip install matplotlib
+7.pip install seaborn
+8.pip install scapy          # Packet manipulation
+9.pip install pyshark        # Packet capture analysis
+10.pip install networkx       # Graph-based threat modeling
+11.pip install joblib         # Model persistence
+12.pip install xgboost
+13.pip install lightgbm
+
+
 
 ##  Model Performance
 The model is trained on the NSL-KDD dataset and uses a `VotingClassifier` with "soft" voting to maximize detection confidence.
